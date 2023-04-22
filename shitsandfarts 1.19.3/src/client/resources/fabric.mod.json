@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "shitsandfarts",
+	"version": "1.19.3",
+	"name": "Shits and Farts",
+	"description": "Shits and Farts! haha poop funny",
+	"authors": [
+		"qweren"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/shitsandfarts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.qweren.shitsandfarts.ShitsandFarts"
+		],
+		"client": [
+			"net.qweren.shitsandfarts.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"shitsandfarts.mixins.json",
+		{
+			"config": "shitsandfarts.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

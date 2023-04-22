@@ -1,0 +1,15 @@
+{
+  "fart_sounds": {
+    "sounds": [
+      "shitsandfarts:mlgfart",
+      "shitsandfarts:reverb",
+      "shitsandfarts:wetfart"
+    ]
+  },
+  "small_fart": {
+    "sounds": [
+      "shitsandfarts:smallfart1",
+      "shitsandfarts:smallfart2"
+    ]
+  }
+}

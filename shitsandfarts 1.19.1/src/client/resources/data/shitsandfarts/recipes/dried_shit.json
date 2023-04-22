@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "shitsandfarts:dry_shit"
+    },
+    "/": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:tipped_arrow",
+    "data": {
+      "Potion": "minecraft:poison"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "shitsandfarts:shit"
+  },
+  "result": "shitsandfarts:dry_shit"
+}
